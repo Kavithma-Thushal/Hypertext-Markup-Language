@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/O10_Forms.iml" filepath="$PROJECT_DIR$/O10_Forms.iml" />
       <module fileurl="file://$PROJECT_DIR$/O1_Root_Element.iml" filepath="$PROJECT_DIR$/O1_Root_Element.iml" />
+      <module fileurl="file://$PROJECT_DIR$/O2_Meta_Data.iml" filepath="$PROJECT_DIR$/O2_Meta_Data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/O3_Sectioning_Root.iml" filepath="$PROJECT_DIR$/O3_Sectioning_Root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/O4_Content_Sectioning.iml" filepath="$PROJECT_DIR$/O4_Content_Sectioning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/O5_Text_Content.iml" filepath="$PROJECT_DIR$/O5_Text_Content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/O6_Inline_Text_Semantics.iml" filepath="$PROJECT_DIR$/O6_Inline_Text_Semantics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/O7_Image_and_multimedia.iml" filepath="$PROJECT_DIR$/O7_Image_and_multimedia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/O8_Embedded_Content.iml" filepath="$PROJECT_DIR$/O8_Embedded_Content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/O9_Table_Content.iml" filepath="$PROJECT_DIR$/O9_Table_Content.iml" />
     </modules>
   </component>
 </project>
