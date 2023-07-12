@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/O10_Forms.iml" filepath="$PROJECT_DIR$/O10_Forms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/O10_Miscellaneous.iml" filepath="$PROJECT_DIR$/O10_Miscellaneous.iml" />
       <module fileurl="file://$PROJECT_DIR$/O1_Root_Element.iml" filepath="$PROJECT_DIR$/O1_Root_Element.iml" />
       <module fileurl="file://$PROJECT_DIR$/O2_Meta_Data.iml" filepath="$PROJECT_DIR$/O2_Meta_Data.iml" />
       <module fileurl="file://$PROJECT_DIR$/O3_Sectioning_Root.iml" filepath="$PROJECT_DIR$/O3_Sectioning_Root.iml" />
