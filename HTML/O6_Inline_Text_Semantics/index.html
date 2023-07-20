@@ -13,11 +13,12 @@
 <!--creates a hyperlink to web pages, files, email addresses, locations-->
 <a href="https://ijse.lk">Go To IJSE</a>
 <p>
-   Hello there this is about ijse. if you wanted to visit IJSE <a href="http://ijse.lk">click here</a>
+    Hello there this is about ijse. if you wanted to visit IJSE <a href="http://ijse.lk">click here</a>
 </p>
+<a href="#ijse">What is IJSE?</a>
 
 <!--link an email address with a tag-->
-<a href="mailto:ijsepro@gmail.com" >Send Me an Email</a>
+<a href="mailto:ijsepro@gmail.com">Send Me an Email</a>
 
 <!--link an tp number-->
 <p>Call me <a href="tel:+94775601122">GO</a></p>
@@ -28,60 +29,90 @@
 <p>Please Click on this Download File phrase to download the pdf file</p>
 
 <ul>
-    <li>A - Download a.pdf</li>
-    <li>B - Download b.pdf</li>
-    <li>C - Download c.pdf</li>
+    <li>A - <a href="assets/doc1/download/a.pdf" download="a.pdf">Download a.pdf</a></li>
+    <li>B - <a href="assets/doc1/download/b.pdf" download="b.pdf">Download b.pdf</a></li>
+    <li>C - <a href="assets/doc1/download/c.pdf" download="c.pdf">Download c.pdf</a></li>
 </ul>
 
 
-
 <!--link opening aspects-->
-<a href="http://ijse.lk" target="_self"></a>
-<a href="http://ijse.lk" target="_blank"></a>
-
+<a href="http://ijse.lk" target="_self">GO TO IJSE SELF</a>
+<a href="http://ijse.lk" target="_blank">GO TO IJSE BLANK</a>
 
 
 <br>
 <br>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> A architecto aut commodi, cumque dignissimos doloribus
+    ex illum neque non nulla recusandae repellat repudiandae sed similique soluta vitae voluptatum? Natus, veniam!</p>
 
 
 <!--Represents an abbreviation-->
-<abbr title="Institute of Software Enigneering">IJSE</abbr>
+<abbr title="Institute of Software Engineering">IJSE</abbr>
+<p>This is the <abbr title="Graduate Diploma in Software Engineering">GDSE</abbr> course</p>
+
 
 <!--Used to draw the reader's attention to the element's contents-->
 <b>Give me special attention, But I am not Important</b>
+
+<!--The Strong Importance element-->
+<!--The <strong> HTML element indicates that its contents have
+ strong importance, seriousness, or urgency.-->
+<!--(such as warnings)-->
+<strong>This is the Number One Institute for IT</strong>
+<!--Use the <b> element to draw attention to certain text
+ without indicating a higher level of importance-->
+
+<!--Use the <em> element to mark text that has stress emphasis.-->
+
+<!--The <em> HTML element marks text that has stress emphasis.-->
+<em></em>
+<p>Get out of bed <em>now</em>!</p>
+
 
 <!--Tells the browser's bidirectional algorithm to treat
  the text it contains in isolation from its surrounding text-->
 <bdi></bdi>
 
-<p><bdi>الرجل القوي إيان</bdi>: 4th place</p>
+<p>
+    <bdi>الرجل القوي إيان</bdi>
+    : 4th place
+</p>
 
 <!--Overrides the current directionality of text-->
 <!--rtl and ltr-->
 <bdo dir="rtl">Haai</bdo>
+
 
 <!--Line break-->
 <br>
 
 <!--Used to mark up the title of a cited creative work-->
 <cite>by George Orwell (Part 1, Chapter 1).</cite>
+<blockquote cite="http://ijse.lk">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consectetur facere magni molestias sunt. Et
+        excepturi id labore modi praesentium soluta unde voluptas! Accusantium enim est illum, molestiae mollitia
+        voluptatem!</p>
+    <cite>by George Orwell (Part 1, Chapter 1).</cite>
+</blockquote>
 
 <!--short fragment of computer code-->
 <code>shift()</code>
+<p>If you want to execute the program call <code>main()</code> method</p>
 
 
 <!--The <data> HTML element links a given piece of content -->
 <!--    with a machine-readable translation-->
 <data value="100">Rice</data>
+<menu>
+    <li><data value="100">Rice</data></li>
+    <li><data value="200">Ice Cream</data></li>
+</menu>
 <!--we can use this in css and js to process-->
 
 <!--to define a term-->
-<dfn id="ijse">IJSE</dfn>
+<!--<dfn id="ijse">IJSE</dfn>-->
+<p> <dfn id="ijse">IJSE</dfn> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio eum eveniet fugiat illo itaque, laborum magni modi numquam perferendis porro quae repellendus reprehenderit rerum sed ullam unde voluptas voluptatem.</p>
 
-<!--The <em> HTML element marks text that has stress emphasis.-->
-<em></em>
-<p>Get out of bed <em>now</em>!</p>
 
 <!--The Idiomatic Text element-->
 <!--The <i> HTML element represents a range of text that is
@@ -125,16 +156,6 @@
 <!--Thus is a generic inline container for phrasing content-->
 <span>Some Text</span>
 
-<!--The Strong Importance element-->
-<!--The <strong> HTML element indicates that its contents have
- strong importance, seriousness, or urgency.-->
-<!--(such as warnings)-->
-<strong>This is the Number One Institute for IT</strong>
-<!--Use the <b> element to draw attention to certain text
- without indicating a higher level of importance-->
-
-<!--Use the <em> element to mark text that has stress emphasis.-->
-
 
 <!--The Subscript element-->
 <sub>X</sub>
@@ -146,7 +167,10 @@
 <!--The (Date) Time element-->
 <!--The <time> HTML element represents a specific period in time. It may include the datetime attribute to translate dates into machine-readable format,-->
 <time datetime="2023"></time>
-<p>The Cure will be celebrating their 40th anniversary on <time datetime="2018-07-07">July 7</time> in London's Hyde Park.</p>
+<p>The Cure will be celebrating their 40th anniversary on
+    <time datetime="2018-07-07">July 7</time>
+    in London's Hyde Park.
+</p>
 
 <!--a valid year string-->
 <!--2011-->
