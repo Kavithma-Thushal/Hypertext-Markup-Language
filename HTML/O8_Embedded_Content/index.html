@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Embedded Content</title>
+</head>
+<body>
+<!--In addition to regular multimedia content,
+HTML can include a variety of other content, even if it's
+ not always easy to interact with.-->
+
+<!--Embeds external content at the specified point in the document.-->
+<!--This content is provided by an external application or other source-->
+<!--of interactive content such as a browser plug-in.-->
+<!--type="video/mp4"-->
+<embed>
+<embed type="video/quicktime" src="assets/video/sample-mov.mov" width="640" height="480" title="Title of my video" />
+
+<!--The <iframe> HTML element represents a nested browsing context,
+ embedding another HTML page into the current one.-->
+<iframe src="" frameborder="0"></iframe>
+
+<!--The <object> HTML element represents an external resource, -->
+<!--    which can be treated as an image, a nested browsing context,-->
+<!--    or a resource to be handled by a plugin.-->
+<object data="" type="application/pdf"></object>
+
+<!--The Picture element-->
+<!--The <picture> HTML element contains zero or more <source>-->
+<!--    elements and one <img> element to offer alternative versions-->
+<!--    of an image for different display/device scenarios.-->
+<picture>
+    <source srcset="" media="(min-width: 600px)">
+    <img src="" alt="">
+</picture>
+
+
+<!--The Portal element = Experimental:-->
+<!--The <portal> HTML element enables the embedding of another HTML
+ page into the current one for the purposes of allowing smoother
+  navigation into new pages.-->
+<!--A <portal> is similar to an <iframe>-->
+<portal>
+
+</portal>
+
+
+
+</body>
+</html>
+
+<!--68 + 6 = 74-->
