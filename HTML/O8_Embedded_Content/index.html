@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Embedded Content</title>
+    <meta name="viewport" content="width=device-width initial-scale=1">
 </head>
 <body>
 <!--In addition to regular multimedia content,
@@ -13,25 +14,30 @@ HTML can include a variety of other content, even if it's
 <!--This content is provided by an external application or other source-->
 <!--of interactive content such as a browser plug-in.-->
 <!--type="video/mp4"-->
-<embed>
-<embed type="video/quicktime" src="assets/video/sample-mov.mov" width="640" height="480" title="Title of my video" />
+<!--<embed>-->
+<!--<embed type="video/mp4" src="assets/video/movie-sample.mp4" width="640" height="480" title="Title of my video" />-->
 
 <!--The <iframe> HTML element represents a nested browsing context,
  embedding another HTML page into the current one.-->
-<iframe src="" frameborder="0"></iframe>
+<!--<iframe src="http://ijse.lk" width="100%" height="500" frameborder="0" ></iframe>-->
+
+<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/JEfixoon32c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+
+<!--<iframe src="https://google.com" frameborder="0"></iframe>-->
+
 
 <!--The <object> HTML element represents an external resource, -->
 <!--    which can be treated as an image, a nested browsing context,-->
 <!--    or a resource to be handled by a plugin.-->
-<object data="" type="application/pdf"></object>
+<!--<object data="assets/pdf/pdf-data.pdf" width="500px" height="400" type="application/pdf"></object>-->
 
 <!--The Picture element-->
 <!--The <picture> HTML element contains zero or more <source>-->
 <!--    elements and one <img> element to offer alternative versions-->
 <!--    of an image for different display/device scenarios.-->
 <picture>
-    <source srcset="" media="(min-width: 600px)">
-    <img src="" alt="">
+    <source srcset="assets/images/source.png" media="(min-width: 600px)">
+    <img src="assets/images/default.png" alt="">
 </picture>
 
 
@@ -40,9 +46,9 @@ HTML can include a variety of other content, even if it's
  page into the current one for the purposes of allowing smoother
   navigation into new pages.-->
 <!--A <portal> is similar to an <iframe>-->
-<portal>
+<!--<portal>-->
 
-</portal>
+<!--</portal>-->
 
 
 
