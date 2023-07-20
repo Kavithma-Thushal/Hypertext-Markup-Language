@@ -11,9 +11,9 @@
 <!--There are 6 elements in  this group-->
 <!--<img  src="" alt="">-->
 
-<img width="300" src="assests/images/gif-image.gif" alt="This is a gif image">
+<img  width="300" src="assests/images/gif-image.gif" alt="This is a gif image">
 <img width="300" src="assests/images/git.gif" alt="This is a gif image">
-<img width="300" src="assests/images/image.png" alt="This is a PNG image">
+<img usemap="#testMap" width="300" src="assests/images/image.png" alt="This is a PNG image">
 <img width="300" src="assests/images/jpeg%20image.jpg" alt="This is a JPG image">
 <img width="300" src="assests/images/webp-image.webp" alt="This is a WEBP image">
 
@@ -41,8 +41,15 @@
 <!--Defines an area inside an image map that has predefined clickable areas-->
 <!--Circle X,Y,Radius-->
 <!--Rect X1,Y1(position),X2,Y2(width, height) Radius-->
-  <area shape="circle" coords="" href="" alt="">
-  <area shape="rect" coords="" href="" alt="">
+  <area shape="circle" coords="10,10,20" href="" alt="">
+  <area shape="rect" coords="10,10,100,100" href="" alt="">
+</map>
+
+
+
+<map name="testMap">
+    <area shape="circle" coords="100,100,100" target="_blank" href="http://ijse.lk" alt="GO TO IJSE">
+    <area shape="rect" coords="0,0,100,100" target="_blank" href="http://google.com" alt="Go to Google">
 </map>
 
 
