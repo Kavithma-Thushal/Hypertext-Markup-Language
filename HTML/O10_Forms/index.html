@@ -73,8 +73,10 @@ The alt attribute displays if the image src is missing.-->
 <!--radio-->
 <input type="radio">
 
-<!--range-A control for entering a number whose exact value is not important. Displays as a range widget defaulting to the middle value. Used in conjunction min and max to define the range of acceptable values.-->
-<input type="range">
+<!--range-A control for entering a number whose exact value is not important.
+ Displays as a range widget defaulting to the middle value.
+  Used in conjunction min and max to define the range of acceptable values.-->
+<input type="range" min="0" max="100">
 
 <input type="reset">
 <!--reset-->
@@ -107,17 +109,38 @@ The alt attribute displays if the image src is missing.-->
 <button></button>
 
 <!--The <datalist> HTML element contains a set of <option> elements that-->
-<!--    represent the permissible or recommended options available to choose from within other controls.-->
+<!--    represent the permissible or recommended options available
+ to choose from within other controls.-->
 <datalist></datalist>
 
-<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
+<hr>
+<input type="text" list="ice-creams" >
 
-<datalist id="ice-cream-flavors">
-    <option value="Chocolate">
-    <option value="Coconut">
-    <option value="Mint">
-    <option value="Strawberry">
-    <option value="Vanilla">
+<datalist id="ice-creams">
+    <option value="Chocolate"></option>
+    <option value="Coconut"></option>
+    <option value="Mint"></option>
+    <option value="Strawberry"></option>
+    <option value="Vanilla"></option>
+</datalist>
+
+<datalist id="colors">
+    <option value="#F53208"></option>
+    <option value="#6DF508"></option>
+    <option value="#E308F5"></option>
+    <option value="#081AF5"></option>
+</datalist>
+
+<datalist id="ranges">
+    <option value="10"></option>
+    <option value="20"></option>
+    <option value="90"></option>
+</datalist>
+
+<datalist id="times">
+    <option value="8:00"></option>
+    <option value="12:00"></option>
+    <option value="13:00"></option>
 </datalist>
 
 
@@ -126,7 +149,7 @@ The alt attribute displays if the image src is missing.-->
 <option value=""></option>
 
 
-<select name="" id="">
+<select name="selectedOption">
     <option value=""></option>
     <option value=""></option>
     <option value=""></option>
@@ -170,6 +193,7 @@ The alt attribute displays if the image src is missing.-->
 <progress id="file" max="100" value="70"> 70%</progress>
 
 
+
 <br>
 <br>
 <br>
@@ -192,8 +216,7 @@ The alt attribute displays if the image src is missing.-->
         <button type="button">Do Nothing</button>
     </fieldset>
 </form>
-
-
+<br>
 <button form="customerForm" type="submit">Submit Data</button>
 <button form="customerForm" type="reset">Clear Data</button>
 </body>
