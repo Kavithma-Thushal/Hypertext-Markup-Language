@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+    <fieldset>
+        <legend>Contact Form Manage</legend>
+
+        <label for="fName">First Name</label>
+        <input type="text" id="fName" placeholder="First Name">
+        <br>
+        <br>
+
+        <label for="lName">Last Name</label>
+        <input type="text" id="lName" placeholder="Last Name">
+        <br>
+        <br>
+
+        <label for="bDay">Birth Day</label>
+        <input type="date" id="bDay" placeholder="B Day">
+        <br>
+        <br>
+
+        <label for="tp">TP</label>
+        <input type="tel" placeholder="TP" id="tp">
+        <br>
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Email">
+        <br>
+        <br>
+
+        <label for="address">Address</label>
+        <input type="text" placeholder="Address" id="address">
+        <br>
+        <br>
+
+        <label for="age">Age</label>
+        <input type="number" placeholder="Age" id="age">
+        <br>
+        <br>
+
+        <label for="upload">Profile Picture</label>
+        <input type="file" id="upload" placeholder="Upload Profile Picture">
+        <br>
+        <br>
+
+        <label for="skinColor">Skin Color</label>
+        <select id="skinColor">
+            <option value="">Fair</option>
+            <option value="">Brown</option>
+            <option value="">Black</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="hairColor">Hair Color</label>
+        <input id="hairColor" type="color" list="colors">
+        <datalist id="colors">
+            <option value="#F53208"></option>
+            <option value="#6DF508"></option>
+            <option value="#E308F5"></option>
+            <option value="#081AF5"></option>
+        </datalist>
+        <br>
+        <br>
+
+
+        <label for="male">Male</label>
+        <input id="male" type="radio" name="gender" value="male">
+        <label for="female">Female</label>
+        <input id="female" type="radio" name="gender" value="female">
+        <br>
+        <br>
+
+        <label for="regTime">Reg Time</label>
+        <input type="time" id="regTime" placeholder="Reg Time">
+        <br>
+        <br>
+
+        <label for="regWeek">Reg Week</label>
+        <input type="week" id="regWeek" placeholder="Reg Week">
+        <br>
+        <br>
+
+
+        <label for="shift">Working Shift</label>
+        <input type="time" id="shift" placeholder="Shift" list="time">
+        <datalist id="time">
+            <option value="10:00"></option>
+            <option value="12:00"></option>
+            <option value="13:00"></option>
+        </datalist>
+        <br>
+        <br>
+
+
+        <label for="lang">Languages</label>
+        <select name="" id="lang">
+            <option value="">English</option>
+            <option value="">Sinhala</option>
+            <option value="">Tamil</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="intro">Brief Intro</label>
+        <textarea name="" id="intro" cols="30" rows="10">
+
+        </textarea>
+        <br>
+        <br>
+
+
+        <label for="skills">Skills for Java</label>
+        <input list="marks" id="skills" type="range" min="0" max="100">
+        <br>
+        <br>
+
+        <label for="marks_for_math">Marks for math</label>
+        <input type="range" id="marks_for_math" min="0" max="100" list="marks">
+        <datalist id="marks">
+            <option value="25"></option>
+            <option value="50"></option>
+            <option value="75"></option>
+            <option value="100"></option>
+        </datalist>
+        <br>
+        <br>
+
+
+        <label for="github_url">Github URL</label>
+        <input type="url" id="github_url" placeholder="Git Hub URL">
+        <br>
+        <br>
+
+        <label for="conditions">Conditions</label>
+        <input type="checkbox" value="true" id="conditions">
+        <br>
+        <br>
+
+        <button>Save Details</button>
+
+    </fieldset>
+</form>
+</body>
+</html>

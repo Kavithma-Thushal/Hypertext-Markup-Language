@@ -171,10 +171,28 @@ The alt attribute displays if the image src is missing.-->
     <option value="">2</option>
 </optgroup>
 
+<hr>
+
+<select name="courses" id="ourCourse">
+    <!--    //after AL students-->
+    <optgroup label="After AL students-">
+        <option value="">GDSE</option>
+        <option value="">CMJD</option>
+        <option value="">RWAD</option>
+    </optgroup>
+
+    <!--    for graduates-->
+    <optgroup label="For graduates">
+        <option value="">ABSD</option>
+        <option value="">DEP</option>
+        <option value="">RMAD</option>
+    </optgroup>
+</select>
+
 
 <!--Represents a multi-line plain-text editing control, useful when you want to -->
 <!--allow users to enter a sizeable amount of free-form text-->
-<textarea></textarea>
+<textarea rows="6"></textarea>
 
 
 <!--The <output> HTML element is a container element into which a site or app can-->
@@ -188,11 +206,11 @@ The alt attribute displays if the image src is missing.-->
 
 <!--The <meter> HTML element represents either a scalar value within a-->
 <!--    known range or a fractional value.-->
-<meter></meter>
+<!--<meter></meter>-->
 <meter id="fuel"
        min="0" max="100"
-       low="33" high="66" optimum="80"
-       value="50">
+       low="33" high="66" optimum="90"
+       value="100">
     at 50/100
 </meter>
 
@@ -200,7 +218,6 @@ The alt attribute displays if the image src is missing.-->
 <!--    progress of a task, typically displayed as a progress bar.-->
 <progress></progress>
 <progress id="file" max="100" value="70"> 70%</progress>
-
 
 
 <br>
@@ -214,7 +231,7 @@ The alt attribute displays if the image src is missing.-->
         <legend>Customer Data</legend>
         <!--  Collect User ID-->
         <label for="txtUId">User ID</label>
-        <input id="txtUId" type="text" placeholder="User ID"  required>
+        <input id="txtUId" type="text" placeholder="User ID" required>
 
         <!--    User Name-->
         <label for="txtUserName">User Name</label>
