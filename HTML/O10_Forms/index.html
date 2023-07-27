@@ -24,7 +24,6 @@
 <legend></legend>
 
 
-
 <!--<input>: The Input (Form Input) element-->
 <input type="text">
 <!--text-->
@@ -78,7 +77,6 @@
 <option value=""></option>
 
 
-
 <select name="" id="">
     <option value=""></option>
     <option value=""></option>
@@ -88,8 +86,8 @@
 
 <!--The <optgroup> HTML element creates a grouping of options within a <select> element.-->
 <optgroup>
-  <option value="">1</option>
-  <option value="">2</option>
+    <option value="">1</option>
+    <option value="">2</option>
 </optgroup>
 
 
@@ -102,8 +100,8 @@
 <!-- inject the results of a calculation or the outcome of a user action.-->
 <output></output>
 <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
-    <input type="range" id="b" name="b" value="50" /> +
-    <input type="number" id="a" name="a" value="10" /> =
+    <input type="range" id="b" name="b" value="50"/> +
+    <input type="number" id="a" name="a" value="10"/> =
     <output name="result" for="a b">60</output>
 </form>
 
@@ -120,9 +118,35 @@
 <!--The <progress> HTML element displays an indicator showing the completion-->
 <!--    progress of a task, typically displayed as a progress bar.-->
 <progress></progress>
-<progress id="file" max="100" value="70"> 70% </progress>
+<progress id="file" max="100" value="70"> 70%</progress>
 
 
+<br>
+<br>
+<br>
+<br>
+
+<form id="customerForm" action="gedara_yamu">
+
+    <fieldset>
+        <legend>Customer Data</legend>
+        <!--  Collect User ID-->
+        <label for="txtUId">User ID</label>
+        <input id="txtUId" type="text" placeholder="User ID"  required>
+
+        <!--    User Name-->
+        <label for="txtUserName">User Name</label>
+        <input id="txtUserName" type="text" placeholder="User Name">
+
+        <button type="submit">Submit Data</button>
+        <button type="reset">Clear Data</button>
+        <button type="button">Do Nothing</button>
+    </fieldset>
+</form>
+
+
+<button form="customerForm" type="submit">Submit Data</button>
+<button form="customerForm" type="reset">Clear Data</button>
 </body>
 </html>
 
