@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+<!--HTML provides several elements that can be used together to create
+ forms that the user can fill out and submit to the website or application-->
+
+<!--There are 14 elements with this function group-->
+
+<!--The <form> HTML element represents a document section containing-->
+<!--    interactive controls for submitting information-->
+<forms>
+
+</forms>
+
+<!--The <fieldset> HTML element is used to group several controls as well-->
+<!--    as labels (<label>) within a web form.-->
+<fieldset></fieldset>
+
+<!--The <legend> HTML element represents a caption for the content of its parent <fieldset>.-->
+<legend></legend>
+
+
+
+<!--<input>: The Input (Form Input) element-->
+<input type="text">
+<!--text-->
+<!--button-->
+<!--checkbox-->
+<!--color-->
+<!--date-->
+<!--datetime-local-->
+<!--email-->
+<!--file-->
+<!--hidden-->
+<!--image-A graphical submit button. Displays an image defined by the src attribute. The alt attribute displays if the image src is missing.-->
+<!--month	-->
+<!--number-->
+<!--password-->
+<!--radio-->
+<!--range-A control for entering a number whose exact value is not important. Displays as a range widget defaulting to the middle value. Used in conjunction min and max to define the range of acceptable values.-->
+<!--reset-->
+<!--search	A single-line text field for entering search strings.-->
+<!--submit-->
+<!--tel-->
+<!--time-->
+<!--url-->
+<!--week-->
+
+<!--Represents a caption for an item in a user interface.-->
+<label for=""></label>
+
+<!--The <button> HTML element is an interactive element activated by-->
+<!--    a user with a mouse, keyboard, finger, voice command,-->
+<!--    or other assistive technology.-->
+<button></button>
+
+<!--The <datalist> HTML element contains a set of <option> elements that-->
+<!--    represent the permissible or recommended options available to choose from within other controls.-->
+<datalist></datalist>
+
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
+
+<datalist id="ice-cream-flavors">
+    <option value="Chocolate">
+    <option value="Coconut">
+    <option value="Mint">
+    <option value="Strawberry">
+    <option value="Vanilla">
+</datalist>
+
+
+<!--Represents a control that provides a menu of options.-->
+<select name="" id=""></select>
+<option value=""></option>
+
+
+
+<select name="" id="">
+    <option value=""></option>
+    <option value=""></option>
+    <option value=""></option>
+</select>
+
+
+<!--The <optgroup> HTML element creates a grouping of options within a <select> element.-->
+<optgroup>
+  <option value="">1</option>
+  <option value="">2</option>
+</optgroup>
+
+
+<!--Represents a multi-line plain-text editing control, useful when you want to -->
+<!--allow users to enter a sizeable amount of free-form text-->
+<textarea></textarea>
+
+
+<!--The <output> HTML element is a container element into which a site or app can-->
+<!-- inject the results of a calculation or the outcome of a user action.-->
+<output></output>
+<form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+    <input type="range" id="b" name="b" value="50" /> +
+    <input type="number" id="a" name="a" value="10" /> =
+    <output name="result" for="a b">60</output>
+</form>
+
+<!--The <meter> HTML element represents either a scalar value within a-->
+<!--    known range or a fractional value.-->
+<meter></meter>
+<meter id="fuel"
+       min="0" max="100"
+       low="33" high="66" optimum="80"
+       value="50">
+    at 50/100
+</meter>
+
+<!--The <progress> HTML element displays an indicator showing the completion-->
+<!--    progress of a task, typically displayed as a progress bar.-->
+<progress></progress>
+<progress id="file" max="100" value="70"> 70% </progress>
+
+
+</body>
+</html>
+
+<!--84 + 14 = 98-->
