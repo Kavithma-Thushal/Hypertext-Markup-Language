@@ -114,7 +114,8 @@ The alt attribute displays if the image src is missing.-->
 <datalist></datalist>
 
 <hr>
-<input type="text" list="ice-creams" >
+<h4>Data List</h4>
+<input type="text" list="ice-creams" placeholder="Type your desired ice cream">
 
 <datalist id="ice-creams">
     <option value="Chocolate"></option>
@@ -123,7 +124,9 @@ The alt attribute displays if the image src is missing.-->
     <option value="Strawberry"></option>
     <option value="Vanilla"></option>
 </datalist>
+<hr>
 
+<input type="color" list="colors" placeholder="Select Your desired color RED,GREEN,ORANGE">
 <datalist id="colors">
     <option value="#F53208"></option>
     <option value="#6DF508"></option>
@@ -131,14 +134,18 @@ The alt attribute displays if the image src is missing.-->
     <option value="#081AF5"></option>
 </datalist>
 
+<br>
+<input type="range" min="0" max="100" list="ranges">
 <datalist id="ranges">
     <option value="10"></option>
     <option value="20"></option>
     <option value="90"></option>
 </datalist>
 
+<br>
+<input type="time" list="times">
 <datalist id="times">
-    <option value="8:00"></option>
+    <option value="08:00"></option>
     <option value="12:00"></option>
     <option value="13:00"></option>
 </datalist>
@@ -148,13 +155,15 @@ The alt attribute displays if the image src is missing.-->
 <select name="" id=""></select>
 <option value=""></option>
 
-
+<hr>
+<h4>Select Box</h4>
 <select name="selectedOption">
-    <option value=""></option>
-    <option value=""></option>
-    <option value=""></option>
+    <option value="">GDSE</option>
+    <option value="">CMJD</option>
+    <option value="">ABSD</option>
+    <option value="">RWAD</option>
 </select>
-
+<hr>
 
 <!--The <optgroup> HTML element creates a grouping of options within a <select> element.-->
 <optgroup>
