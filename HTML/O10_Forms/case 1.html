@@ -11,23 +11,23 @@
         <legend>Customer Manage</legend>
 <!--        Customer ID-->
         <label for="txtCusID">Customer ID</label>
-        <input id="txtCusID" type="text" placeholder="Customer ID"  required>
+        <input name="cusID" id="txtCusID" type="text" placeholder="Customer ID"  required>
         <br>
         <br>
 <!--        Customer Name-->
         <label for="txtCusName">Customer Name</label>
-        <input id="txtCusName" type="text" placeholder="Customer Name">
+        <input name="cusName" id="txtCusName" type="text" placeholder="Customer Name">
         <br>
         <br>
 
 <!--        Customer Address-->
         <label for="txtCusAddress">Customer Address</label>
-        <input id="txtCusAddress" type="text" placeholder="Customer Address">
+        <input name="address" id="txtCusAddress" type="text" placeholder="Customer Address">
         <br>
         <br>
 <!--        Customer TP-->
         <label for="txtCusTP">Customer TP</label>
-        <input id="txtCusTP" type="text" placeholder="Customer TP">
+        <input name="tp" id="txtCusTP" type="text" placeholder="Customer TP">
         <br>
         <br>
         <button type="submit" formaction="save_customer">Save Customer</button>
@@ -38,6 +38,12 @@
     </fieldset>
 </form>
 
+<h4>Out side the form</h4>
+<button form="customerForm" type="submit" formaction="save_customer">Save Customer</button>
+<button form="customerForm" type="submit" formaction="delete_customer">Delete</button>
+<button form="customerForm" type="submit" formaction="update_customer">Update</button>
+<button form="customerForm" type="submit" formaction="get_all_customer">Get All</button>
+<button form="customerForm" type="reset">Clear Data</button>
 </body>
 </html>
 
